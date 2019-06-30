@@ -15,7 +15,7 @@ Tutorial to create a Pokédex app from scratch. The app uses Retrofit library to
 ### What you'll need
 * Know how to obtain images with Glide
 
-## 1. Introduction
+## Introduction
 
 ### API (0:22)
 * [pokeapi.co](https://pokeapi.co/)
@@ -30,7 +30,7 @@ URL to obtain the images of the pokemon by their number.
 https://pokeapi.co/media/sprites/pokemon/25.png
 ```
 
-### 2. Retrofit
+## Retrofit
 2:02 Dependency to use *Retrofit* in the module `build.gradle`
 
 ```groovy
@@ -41,7 +41,7 @@ More information and Retrofit documentation.
 
 * [Website](http://square.github.io/retrofit/)
 
-### 3. The Code
+## The Code
 The complete code:
 
 * [GitHub repository](https://github.com/adanieldev/Pokedex)
