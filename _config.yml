@@ -17,8 +17,8 @@ title: Daniel Alvarez
 email: adanieldev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software Engineer. iOS, Android development trainer. Tech speaker.
-baseurl: "dev-website" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://adaniel.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adanieldev
 github_username:  adanieldev
 
