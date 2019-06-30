@@ -7,6 +7,8 @@ permalink: /:categories/retrofit-pokemon
 
 Tutorial to create a Pokédex app from scratch. The app uses Retrofit library to consume an API on Android. In addition to using Glide to download images.
 
+[YouTube](https://www.youtube.com/watch?v=xQn8u4Htib4)
+
 ### What you'll learn
 * Consume an API or Web Service with Retrofit
 * Use a `RecyclerView` component in grid mode

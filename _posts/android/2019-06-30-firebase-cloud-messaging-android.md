@@ -2,28 +2,34 @@
 layout: "post"
 title: "Enviar notificaciones Android con Firebase Cloud Messaging"
 categories: android firebase
-permalink: /:categories/firebase-cloud-messaging-notificaciones-android
+permalink: /:categories/cloud-messaging-notificaciones
 ---
 
 Tutorial de Firebase Cloud Messaging para enviar notificaciones a aplicaciones Android. Se hace uso de Firebase Notifications y peticiones REST a la API de FCM.
+
+[YouTube](https://www.youtube.com/watch?v=KTQ4d3ZUS8g)
 
 ### Requisitos
 
 * Android Studio 1.4 o posterior con Gradle
 * Android 2.3 o superior que también tengan la app Google Play Store instalada o un emulador con Android 2.3 con las API de Google.
 
-# 1. Implementación
+# Implementación
 Luego de configurar Firebase en el proyecto en Android Studio, se debe colocar la siguiente dependencia en el **build.gradle** del módulo:
 
-# 2. Servicios
+# Servicios
 Se debe crear clases que extiendan o hereden de los siguientes servicios:
+
 * `FirebaseMessagingService`
 * `FirebaseInstanceIdService`
 
-# 3. Firebase Notifications
+# Firebase Notifications
+
 Se puede enviar notificaciones desde la sección de **Notifications** en la consola de Firebase.
-*  [console.firebase.google.com](https://console.firebase.google.com/) 
-# 4. Desde consola
+
+* [console.firebase.google.com](https://console.firebase.google.com/) 
+
+# Desde consola
 Para enviar por petición REST Petición POST a:
 
 ```
@@ -31,6 +37,7 @@ https://fcm.googleapis.com/fcm/send
 ```
 
 ### Ejemplo de envío
+
 **Header**
 
 ```
@@ -54,6 +61,6 @@ Authorization:key=KEY
 }
 ```
 
-# 5. Código
+# Código
 *  [Repositorio en GitHub](https://github.com/adanieldev/EjemploFCM) 
 *  [Descargar en ZIP](https://github.com/adanieldev/EjemploFCM/archive/master.zip) 
