@@ -1,28 +1,31 @@
 ---
 layout: "post"
-title: "Implementar Bottom Navigation View en Android para la navegación"
+title: "Implement Bottom Navigation View for Android"
 categories: android
-permalink: /:categories/bottom-navigation-view-es
+permalink: /:categories/bottom-navigation-view
 ---
-Implementación de un `BottomNavigationView` en una aplicación Android. Componente disponible desde la librería de compatibilidad 25.
+Implementation of a Bottom Navigation View in an Android application. Component available from the compatibility library 25.
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/aTPwcWQIckw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Aprenderás
-* Usar el componente `BottomNavigationView`
+### What you'll learn
 
-### Requisitos
-* Librería de compatibilidad 25 o superior
+* Use the `BottomNavigationView` component
 
-## Dependencia
-Adición de la dependencia (0.48)
+### What you'll need
+
+* Compatibility library 25 or higher
+
+## Dependency
+Dependency addition (0.48)
 
 ```groovy
 compile 'com.android.support:design:25.0.0'
 ```
 
-## Adicionando el componente
-Adicionando el BottomNavigationView (1.08)
+## Adding  the component
+
+Adding the `BottomNavigationView` (1.08)
 
 ```xml
 <android.support.design.widget.BottomNavigationView  
@@ -31,8 +34,9 @@ Adicionando el BottomNavigationView (1.08)
     android:layout_height="wrap_content" />
 ```
 
-## Menú
-Creación del menú (1.38)
+## Menu
+
+Menu creation (1.38)
 
 `menu_navigation.xml`
 
@@ -68,18 +72,17 @@ Creación del menú (1.38)
 </menu>
 ```
 
-## El código
-
-El código completo en:
+## The Code
+The complete code:
 
 * [GitHub Repository](https://github.com/adanieldev/BottomNavigationViewSample)
 * [Download ZIP](https://github.com/adanieldev/BottomNavigationViewSample/archive/master.zip)
 
-Luego de que descargues o clones el proyecto puedes importarlo con la opción "Import Project" desde *Android Studio*.
+After you download or clone the project you can import it with the "Import Project" option from Android Studio.
 
-## Quitar animación
+## Remove animation
 
-Si deseas que no tenga la animación de zoom al cambiar de opción (shift mode) aún no hay un método que lo permita hacer de forma sencilla, pero puedes utilizar este método:
+If you want to not have the zoom animation when the option changes (shift mode) there is no method that allows this, but you can use this:
 
 ```java
 private void removeShiftMode(BottomNavigationView bottomNavigationView) {
@@ -102,19 +105,19 @@ private void removeShiftMode(BottomNavigationView bottomNavigationView) {
 }
 ```
 
-Puedes descargar el mismo ejemplo con esta modificación:
+You can download the same example with this change.
 
 * [GitHub repository](https://github.com/adanieldev/BottomNavigationViewSample/tree/remove-shift)
 * [Download ZIP](https://github.com/adanieldev/BottomNavigationViewSample/archive/remove-shift.zip)
 
-## Con Fragments
+## With Fragments
 
-Si quieres el ejemplo con fragments te lo dejamos aquí:
+If you want an example with fragments I leave it here:
 
 * [GitHub repository](https://github.com/adanieldev/BottomNavigationViewSample/tree/fragments)
 * [Download ZIP](https://github.com/adanieldev/BottomNavigationViewSample/archive/fragments.zip)
 
-## Recursos adicionales
+## Resources
 
 * [Official documentation](https://developer.android.com/reference/android/support/design/widget/BottomNavigationView.html)
 * [Design guide](https://material.io/design/components/bottom-navigation.html)
